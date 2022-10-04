@@ -1,5 +1,72 @@
-.Dictionary form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+:root {
+  --main-color-h: #0d7e83;
+  --font-family-headers: "Fjalla One";
+  --font-family-content: "Inter";
+  --font-color-content: #1f2627;
+}
+
+.Dictionary-header {
+  height: 28rem;
+  background-color: #13293d;
+  padding: 3rem;
+}
+
+.Dictionary-header h1 {
+  font-family: var(--font-family-headers);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffaf87;
+  margin: 4rem;
+}
+
+.Dictionary p {
+  color: var(--main-color-h);
+  font-family: var(--font-family-content);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.085em;
+  margin: 1.5rem 26% auto;
+}
+
+.Dictionary hr {
+  border-top: 2px solid var(--main-color-h);
+}
+
+.Dictionary .content {
+  margin: 3rem 15%;
+}
+
+.Dictionary .searching-word h2 {
+  font-family: var(--font-family-content);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #ffaf87;
+}
+
+.Dictionary .searching-word p {
+  margin: 0;
+}
+
+.Dictionary .meaning h3 {
+  color: var(--main-color-h);
+  font-family: var(--font-family-headers);
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.Dictionary .meaning p {
+  margin: 0;
+  font-family: var(--font-family-content);
+  color: var(--font-color-content);
+  font-size: 1rem;
+}
+
+.Dictionary .Meaning {
+  margin-bottom: 5rem;
 }

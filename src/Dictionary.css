@@ -71,3 +71,7 @@
 .Dictionary .Meaning {
   margin-bottom: 5rem;
 }
+
+.Dictionary .Phonetics {
+  display: inline-block;
+}

@@ -30,7 +30,6 @@ export default function Results(props) {
                     </span>
                   );
                 })}
-                {/* <Phonetics phonetic={props.results.phonetics[0]} /> */}
               </div>
             </div>
           </div>

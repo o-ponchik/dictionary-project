@@ -38,7 +38,7 @@ export default function Dictionary() {
               type="search"
               className="form-control"
               id="inputWord"
-              placeholder="Type a new word..."
+              placeholder="What word do you want to look up?"
               autoFocus
               onChange={handleKeywordChange}
             />

@@ -1,0 +1,12 @@
+.Synonyms {
+  padding: 0;
+}
+
+.Synonyms li {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "Inter";
+  letter-spacing: 0.085em;
+  color: #ffaf87;
+  font-weight: 500;
+}

@@ -39,7 +39,8 @@
 }
 
 .Dictionary .content {
-  margin: 3rem 15%;
+  margin: 3rem auto;
+  max-width: 68%;
 }
 
 .Dictionary .searching-word h2 {

@@ -3,8 +3,6 @@ import useSound from "use-sound";
 import { HiVolumeUp } from "react-icons/hi";
 
 export default function Phonetics(props) {
-  console.log(props.phonetic.audio);
-
   const Button = () => {
     const [play] = useSound(props.phonetic.audio);
 

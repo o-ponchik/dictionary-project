@@ -44,8 +44,6 @@ export default function Results(props) {
               );
             })}
           </div>
-
-          {/* image */}
         </div>
       </div>
     );

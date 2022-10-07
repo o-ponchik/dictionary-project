@@ -1,0 +1,8 @@
+.Photos {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.Photos hr {
+  margin-bottom: 2rem;
+}

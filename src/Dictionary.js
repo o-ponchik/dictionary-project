@@ -76,7 +76,7 @@ export default function Dictionary() {
         </header>
         <div className="d-flex justify-content-center">
           <img
-            className="img-fluid w-25 m-2 m-md-5 p-md-5"
+            className="img-fluid wh-50 m-2 m-md-5 p-5"
             src={
               process.env.PUBLIC_URL +
               "images/undraw_file_searching_re_3evy.svg"

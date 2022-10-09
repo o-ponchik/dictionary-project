@@ -1,0 +1,8 @@
+.App footer {
+  font-family: "Inter";
+}
+
+.App footer a {
+  text-decoration: none;
+  color: #0d7e83;
+}

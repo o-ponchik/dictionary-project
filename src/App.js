@@ -6,7 +6,17 @@ export default function App() {
     <div className="App">
       <Dictionary />
 
-      <footer className="text-center">Coded by Mariia Matviian</footer>
+      <footer className="text-center">
+        Coded by{" "}
+        <a href="https://lighthearted-pony-a59add.netlify.app/">
+          Mariia Matviian
+        </a>{" "}
+        and code is{" "}
+        <a href="https://github.com/o-ponchik/dictionary-project">
+          open-sourced
+        </a>{" "}
+        on GitHub
+      </footer>
     </div>
   );
 }

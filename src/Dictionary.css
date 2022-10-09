@@ -15,11 +15,11 @@
   font-family: var(--font-family-headers);
   font-style: normal;
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 7vw;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffaf87;
-  margin: 4rem;
+  margin: 4rem 0;
 }
 
 .Dictionary p {
@@ -30,7 +30,7 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.085em;
-  margin: 1.5rem 26% auto;
+  /* margin: 1.5rem 26% auto; */
   line-height: 1.8rem;
 }
 
@@ -76,4 +76,10 @@
 
 .Dictionary .Phonetics {
   display: inline-block;
+}
+
+@media all and (max-width: 600px) {
+  .Dictionary-header h1 {
+    font-size: 12vw;
+  }
 }

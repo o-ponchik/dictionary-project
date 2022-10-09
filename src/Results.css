@@ -1,0 +1,26 @@
+.Results .searching-word h2 {
+  font-family: var(--font-family-content);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #ffaf87;
+}
+
+.Results .searching-word p {
+  margin: 0;
+}
+
+.Results .meaning h3 {
+  color: var(--main-color-h);
+  font-family: var(--font-family-headers);
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  text-transform: capitalize;
+}
+
+.Results .meaning p {
+  margin: 0;
+  font-family: var(--font-family-content);
+  color: var(--font-color-content);
+  font-size: 1rem;
+}

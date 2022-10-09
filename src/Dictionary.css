@@ -43,37 +43,6 @@
   max-width: 68%;
 }
 
-.Dictionary .searching-word h2 {
-  font-family: var(--font-family-content);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 3rem;
-  color: #ffaf87;
-}
-
-.Dictionary .searching-word p {
-  margin: 0;
-}
-
-.Dictionary .meaning h3 {
-  color: var(--main-color-h);
-  font-family: var(--font-family-headers);
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
-  text-transform: capitalize;
-}
-
-.Dictionary .meaning p {
-  margin: 0;
-  font-family: var(--font-family-content);
-  color: var(--font-color-content);
-  font-size: 1rem;
-}
-
-.Dictionary .Meaning {
-  margin-bottom: 5rem;
-}
-
 .Dictionary .Phonetics {
   display: inline-block;
 }
